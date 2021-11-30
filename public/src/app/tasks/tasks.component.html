@@ -1,0 +1,20 @@
+
+<ul>
+    <li *ngFor="let task of taskList" class="taskCard">
+        <p>Id: {{ task._id }}</p>
+        <p>Title: {{ task.title }}</p>
+        <p>Description: {{ task.description }}</p>
+        <p>Completed: {{ task.completed }}</p>
+    </li>
+</ul>
+
+<ul>
+    <li class="taskCard">
+            <h1>By ID: {{ taskById._id }}</h1>
+            <p>Title: {{ taskById.title }}</p>
+            <p>Description: {{ taskById.description }}</p>
+            <p>Completed: {{ taskById.completed }}</p>
+    </li>
+</ul>
+
+
